@@ -5,6 +5,7 @@
 
 }
 
+
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.t_d .desc {
@@ -54,6 +55,9 @@
 	}
 	.owl-nav div {
     top: 30%;}
+	.ex .ex_s {
+    width: 50%;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -89,4 +93,11 @@
 
 }
 
-	
+@media only screen and (max-width : 1200px) and (min-width : 992px){
+	.header_top .top_line .t_l {
+    width: 150px;
+	}
+	.header_top .top_line .time {
+    float: left;
+	}
+}
